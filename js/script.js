@@ -24,9 +24,9 @@ function Fahrenheit() {
     let Fahrenheit = Celsius * 9 / 5 + 32;
     let resultFahrenheit = Fahrenheit
     document.getElementById('resultado-celsus').innerHTML = resultFahrenheit + "Fº";
-    if(resultFahrenheit == 0){
-        document.getElementById('resultado-celsus').innerHTML = "Não é possível calcular por zero";
-    }
+    // if(resultFahrenheit == 0){
+    //     document.getElementById('resultado-celsus').innerHTML = "Não é possível calcular por zero";
+    // }
 }
 function Baskhara1() {
     let a, b, c;
@@ -38,6 +38,10 @@ function Baskhara1() {
     let x2 = (-b - Math.sqrt(delta)) / (2 * a)
     document.getElementById("resultado-baskx1").innerHTML = "X1"+ x1.toFixed(2)
     document.getElementById("resultado-baskx2").innerHTML = "X2" + x2.toFixed(2)
+    if(x1 ==0 && x2==0){
+        document.getElementById("resultado-baskx1").innerHTML = "Não é possível calcular por zero"
+        document.getElementById("resultado-baskx2").innerHTML = "Não é possível calcular por zero"
+    }
 
 
 }
