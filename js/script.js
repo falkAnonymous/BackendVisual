@@ -16,7 +16,7 @@ function realDolar() {
     let TaxaCambio = 4.951;
     let real = document.getElementById('Real').value;
     let dolar = (real / TaxaCambio).toFixed(2);
-    document.getElementById('Resultado-real').innerHTML = dolar
+    document.getElementById('Resultado-real').innerHTML = "$"+dolar
 
 }
 function Fahrenheit() {
