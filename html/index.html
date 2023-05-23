@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <script src="/js/script.js"></script>
+    
     <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,12 +19,12 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Área do Círculo</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1" id="circulo1">
-                        <input type="text" placeholder="Nº2" id="circulo2">
+                        <input type="number" placeholder="Nº1" id="circulo1">
                         <br>
-                        <button>Área do Circulo</button>
+                        <button onclick="circulo()" id="btn-circulo">Área do Circulo</button>
                         <br>
-                        <input type="text" placeholder="Resultado" id="circulo-resultado">
+                        <div class="numero-circulo" id="circulo-resultado"></div>
+                        
                     </div>
 
                 </div>
@@ -36,7 +36,7 @@
                         <br>
                         <button>Área do Retângulo</button>
                         <br>
-                        <input type="text" placeholder="Resultado" id="">
+                        <div class="" id="retangulo-resultado"></div>
                     </div>
                 </div>
                 <div class="col d-inline-flex flex-column">
@@ -144,5 +144,6 @@
 
 </body>
 <script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/script.js"></script>
 
 </html>

@@ -35,5 +35,18 @@ h2{
     border-radius: 25px;
     height: 350px;
     width: 100%;
+    background-color: #9c0390;
     
+}
+.numero-circulo{
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(233, 4, 221);
+    font-size: 40px;
+    margin-top: 25px;
+}
+.numero-circulo:hover{
+    background-image: linear-gradient(to bottom right, rgb(216, 11, 189),rgb(141, 10, 216));
+    border-radius: 1px 12px 1px 25px;
+    padding: 0;
+    border: 2px solid rebeccapurple;
 }
