@@ -3,11 +3,11 @@
 
 <head>
     
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Funções</title>
 </head>
 
@@ -19,7 +19,7 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Área do Círculo</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="number" placeholder="Nº1" id="circulo1">
+                        <input type="number" placeholder="Raio" id="circulo1">
                         <br>
                         <button onclick="circulo()" id="btn-circulo">Área do Circulo</button>
                         <br>
@@ -31,8 +31,8 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Área do Retângulo</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1" id="retangulo1">
-                        <input type="text" placeholder="Nº2" id="retangulo2">
+                        <input type="number" placeholder="Base" id="retangulo1">
+                        <input type="number" placeholder="Altura" id="retangulo2">
                         <br>
                         <button onclick="Retangulo()">Área do Retângulo</button>
                         <br>
@@ -42,12 +42,12 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Área do Triângulo</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1">
-                        <input type="text" placeholder="Nº2">
+                        <input type="number" placeholder="Base" id="triangulo1">
+                        <input type="number" placeholder="Altura" id="triangulo2">
                         <br>
-                        <button>Área do Triângulo</button>
+                        <button onclick="Triangulo()">Área do Triângulo</button>
                         <br>
-                        <input type="text" placeholder="Resultado">
+                        <div id="resultado-triangulo"></div>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Conversão de Modeas</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1" id="Real">
+                        <input type="text" placeholder="Real" id="Real">
                         <br>
                         <button onclick="realDolar()">Converter</button>
                         <br>
@@ -108,12 +108,11 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Conversão de Velocidade (KM/H para M/S)</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1">
-                        <input type="text" placeholder="Nº2">
+                        <input class="align-middle" type="text" placeholder="Km por Hora" id="Km">
                         <br>
-                        <button>M/S</button>
+                        <button onclick="km_ms()">M/S</button>
                         <br>
-                        <input type="text" placeholder="Resultado">
+                        <div id="resultado-km"></div>
                     </div>
                 </div>
                 <div class="col d-inline-flex flex-column">
@@ -144,7 +143,7 @@
     </footer>
 
 </body>
-<script src="/js/bootstrap.bundle.min.js"></script>
-<script src="/js/script.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 
 </html>
