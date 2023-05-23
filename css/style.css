@@ -5,7 +5,7 @@
 
 /* -------------------- */
 body {
-    background-image: linear-gradient(to left bottom, orange, blue);
+    background-image: linear-gradient(to bottom right, rgb(216, 11, 189),rgb(141, 10, 216));
     background-repeat: no-repeat;
 }
 
@@ -35,7 +35,6 @@ h2{
     border-radius: 25px;
     height: 350px;
     width: 100%;
-    background-color: #9c0390;
     
 }
 .numero-circulo,#hipotenusa-resultado,#Resultado-real,#resultado-celsus,#resultado-baskx1,#resultado-baskx2{
