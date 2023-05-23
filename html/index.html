@@ -58,34 +58,35 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Hipotenusa</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1">
-                        <input type="text" placeholder="Nº2">
+                        <input type="text" placeholder="Nº1" id="hipotenusa1">
+                        <input type="text" placeholder="Nº2" id="hipotenusa2">
                         <br>
-                        <button>Hipotenusa</button>
+                        <button onclick="hipotenusa()">Hipotenusa</button>
                         <br>
-                        <input type="text" placeholder="Resultado">
+                        <div id="hipotenusa-resultado"></div>
                     </div>
                 </div>
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Baskhara</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1">
-                        <input type="text" placeholder="Nº2">
+                        <input type="text" placeholder="Nºa" id="A">
+                        <input type="text" placeholder="Nºb" id="B">
+                        <input type="text" placeholder="Nºc" id="C">
                         <br>
-                        <button>Baskhara</button>
+                        <button onclick="Baskhara1()">Baskhara</button>
                         <br>
-                        <input type="text" placeholder="Resultado">
+                        <div id="resultado-baskx1"></div>
+                        <div id="resultado-baskx2"></div>
                     </div>
                 </div>
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Conversão de Modeas</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1">
-                        <input type="text" placeholder="Nº2">
+                        <input type="text" placeholder="Nº1" id="Real">
                         <br>
-                        <button>Converter</button>
+                        <button onclick="realDolar()">Converter</button>
                         <br>
-                        <input type="text" placeholder="Resultado">
+                        <div id="Resultado-real"></div>
                     </div>
                 </div>
             </div>
@@ -96,12 +97,11 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Conversão de Temperatura(Cº para F)</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1">
-                        <input type="text" placeholder="Nº2">
+                        <input type="text" placeholder="cº" id="Celsus">
                         <br>
-                        <button>fahrenheit</button>
+                        <button onclick="Fahrenheit()">fahrenheit</button>
                         <br>
-                        <input type="text" placeholder="Resultado">
+                        <div id="resultado-celsus"></div>
                     </div>
                 </div>
                 <div class="col d-inline-flex flex-column">
