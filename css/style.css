@@ -1,0 +1,39 @@
+/* Importação  de fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/* -------------------- */
+body {
+    background-image: linear-gradient(to left bottom, orange, blue);
+    background-repeat: no-repeat;
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9c0390;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* .corpo-main {
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.col{
+    border: 5px groove rebeccapurple;
+    border-radius: 25px;
+    height: 350px;
+    width: 100%;
+    
+}
