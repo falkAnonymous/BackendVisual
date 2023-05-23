@@ -33,7 +33,8 @@ function Baskhara1() {
     let delta = Math.pow(b, 2) - 4 * a * c;
     let x1 = (-b + Math.sqrt(delta)) / (2 * a)
     let x2 = (-b - Math.sqrt(delta)) / (2 * a)
-    document.getElementById("resultado-baskx1")
-    alert(x1 + "\n" + x2)
+    document.getElementById("resultado-baskx1").innerHTML = x1
+    document.getElementById("resultado-baskx2").innerHTML = x2
+
 
 }
