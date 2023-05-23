@@ -38,7 +38,7 @@ function Baskhara1() {
     let x2 = (-b - Math.sqrt(delta)) / (2 * a)
     document.getElementById("resultado-baskx1").innerHTML = "X1"+ x1.toFixed(2)
     document.getElementById("resultado-baskx2").innerHTML = "X2" + x2.toFixed(2)
-    if(x1 ==0 && x2==0){
+    if(a ==0 && b == 0 && c == 0){
         document.getElementById("resultado-baskx1").innerHTML = "Não é possível calcular por zero"
         document.getElementById("resultado-baskx2").innerHTML = "Não é possível calcular por zero"
     }
