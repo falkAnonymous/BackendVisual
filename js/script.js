@@ -15,7 +15,7 @@ function hipotenusa() {
 function realDolar() {
     let TaxaCambio = 4.951;
     let real = document.getElementById('Real').value;
-    let dolar = (real / TaxaCambio).toFixed(2);
+    let dolar = (real * TaxaCambio).toFixed(2);
     document.getElementById('Resultado-real').innerHTML = "$"+dolar
 
 }
@@ -28,7 +28,7 @@ function Fahrenheit() {
     //     document.getElementById('resultado-celsus').innerHTML = "Não é possível calcular por zero";
     // }
 }
-function Baskhara1() {
+function Baskhara1(){
     let a, b, c;
     a = parseInt(document.getElementById('A').value);
     b = parseInt(document.getElementById('B').value);
@@ -38,10 +38,14 @@ function Baskhara1() {
     let x2 = (-b - Math.sqrt(delta)) / (2 * a)
     document.getElementById("resultado-baskx1").innerHTML = "X1"+ x1.toFixed(2)
     document.getElementById("resultado-baskx2").innerHTML = "X2" + x2.toFixed(2)
-    if(a ==0 && b == 0 && c == 0){
-        document.getElementById("resultado-baskx1").innerHTML = "Não é possível calcular por zero"
-        document.getElementById("resultado-baskx2").innerHTML = "Não é possível calcular por zero"
-    }
-
-
+    // if(a == 0 && b == 0 && c == 0){
+    //     document.getElementById("resultado-baskx1").innerHTML = "Não é possível calcular por zero"
+    //     document.getElementById("resultado-baskx2").innerHTML = "Não é possível calcular por zero"
+    // }
+}
+function Retangulo(){
+    base = parseInt(document.getElementById('retangulo1').value);
+    altura = parseInt(document.getElementById('retangulo2').value);
+    retangulo = base * altura;
+    document.getElementById('retangulo-resultado').innerHTML = retangulo;
 }
