@@ -44,8 +44,8 @@ input{
 .numero-circulo,#hipotenusa-resultado,#Resultado-real,#resultado-celsus,#resultado-baskx1,#resultado-baskx2,#retangulo-resultado,#resultado-triangulo,#resultado-km,#resultado-media{
     font-family: 'Orbitron', sans-serif;
     color: rgb(223, 207, 222);
-    font-size: 40px;
-    margin-top: 25px;
+    font-size: 25px;
+    margin-top: 15px;
 }
 
 .numero-circulo:hover,#hipotenusa-resultado:hover,#Resultado-real:hover,#resultado-celsus:hover,#resultado-baskx1:hover,#resultado-baskx2:hover,#retangulo-resultado:hover,#resultado-triangulo:hover,#resultado-km:hover,#resultado-media:hover{
