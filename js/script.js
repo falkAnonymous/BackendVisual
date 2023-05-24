@@ -55,8 +55,16 @@ function Triangulo() {
     area = ((base * altura) / 2).toFixed(2)
     document.getElementById('resultado-triangulo').innerHTML = area;
 }
-km_ms = () => {
+km_ms = () => { //Função anônima
     KmHora = document.getElementById('Km').value
     mSegundo = (KmHora / 3.6).toFixed(2)
     document.getElementById('resultado-km').innerHTML = mSegundo + " ms"
+}
+function Media() {
+    nota1 = parseFloat(document.getElementById('Nota1').value);
+    nota2 = parseFloat(document.getElementById('Nota2').value);
+    nota3 = parseFloat(document.getElementById('Nota3').value);
+    media = ((nota1 + nota2 + nota3) / 3).toFixed(2)
+    document.getElementById('resultado-media').innerHTML = "Media Final: " + media
+
 }

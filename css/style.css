@@ -10,7 +10,7 @@ body {
 }
 
 .footer {
-    position:fixed;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -29,6 +29,9 @@ h2{
     font-family: 'Orbitron', sans-serif;
     
 }
+input{
+    text-align: center;
+}
 
 .col{
     border: 5px groove rebeccapurple;
@@ -38,14 +41,14 @@ h2{
     
 }
 
-.numero-circulo,#hipotenusa-resultado,#Resultado-real,#resultado-celsus,#resultado-baskx1,#resultado-baskx2,#retangulo-resultado,#resultado-triangulo{
+.numero-circulo,#hipotenusa-resultado,#Resultado-real,#resultado-celsus,#resultado-baskx1,#resultado-baskx2,#retangulo-resultado,#resultado-triangulo,#resultado-km,#resultado-media{
     font-family: 'Orbitron', sans-serif;
     color: rgb(223, 207, 222);
     font-size: 40px;
     margin-top: 25px;
 }
 
-.numero-circulo:hover,#hipotenusa-resultado:hover,#Resultado-real:hover,#resultado-celsus:hover,#resultado-baskx1:hover,#resultado-baskx2:hover,#retangulo-resultado:hover,#resultado-triangulo:hover{
+.numero-circulo:hover,#hipotenusa-resultado:hover,#Resultado-real:hover,#resultado-celsus:hover,#resultado-baskx1:hover,#resultado-baskx2:hover,#retangulo-resultado:hover,#resultado-triangulo:hover,#resultado-km:hover,#resultado-media:hover{
     background-image: linear-gradient(to bottom right, rgb(216, 11, 189),rgb(141, 10, 216));
     border-radius: 1px 12px 1px 25px;
     padding: 0;

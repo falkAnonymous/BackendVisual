@@ -19,7 +19,7 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Área do Círculo</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="number" placeholder="Raio" id="circulo1">
+                        <input typetext" placeholder="Raio" id="circulo1">
                         <br>
                         <button onclick="circulo()" id="btn-circulo">Área do Circulo</button>
                         <br>
@@ -31,8 +31,8 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Área do Retângulo</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="number" placeholder="Base" id="retangulo1">
-                        <input type="number" placeholder="Altura" id="retangulo2">
+                        <input type="text" placeholder="Base" id="retangulo1">
+                        <input type="text" placeholder="Altura" id="retangulo2">
                         <br>
                         <button onclick="Retangulo()">Área do Retângulo</button>
                         <br>
@@ -42,8 +42,8 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Área do Triângulo</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="number" placeholder="Base" id="triangulo1">
-                        <input type="number" placeholder="Altura" id="triangulo2">
+                        <input type="text" placeholder="Base" id="triangulo1">
+                        <input type="text" placeholder="Altura" id="triangulo2">
                         <br>
                         <button onclick="Triangulo()">Área do Triângulo</button>
                         <br>
@@ -58,8 +58,8 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Hipotenusa</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1" id="hipotenusa1">
-                        <input type="text" placeholder="Nº2" id="hipotenusa2">
+                        <input type="text" placeholder="Cateto Oposto" id="hipotenusa1">
+                        <input type="text" placeholder="Cateto Adjacente" id="hipotenusa2">
                         <br>
                         <button onclick="hipotenusa()">Hipotenusa</button>
                         <br>
@@ -83,7 +83,7 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Conversão de Modeas</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Real" id="Real">
+                        <input type="text" placeholder="Dolar" id="Real">
                         <br>
                         <button onclick="realDolar()">Converter</button>
                         <br>
@@ -118,12 +118,13 @@
                 <div class="col d-inline-flex flex-column">
                     <h2 class="text-info fs-4">Média Aritimética entre 3 notas</h2>
                     <div class="col-sm d-inline-flex flex-column justify-content-center">
-                        <input type="text" placeholder="Nº1">
-                        <input type="text" placeholder="Nº2">
+                        <input type="text" placeholder="Nota 1" id="Nota1">
+                        <input type="text" placeholder="Nota 2" id="Nota2">
+                        <input type="text" placeholder="Nota 3" id="Nota3">
                         <br>
-                        <button>Média Final</button>
+                        <button onclick="Media()">Média Final</button>
                         <br>
-                        <input type="text" placeholder="Resultado">
+                        <div id="resultado-media"></div>
                     </div>
                 </div>
             </div>
