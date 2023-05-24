@@ -44,7 +44,7 @@ input{
 .numero-circulo,#hipotenusa-resultado,#Resultado-real,#resultado-celsus,#resultado-baskx1,#resultado-baskx2,#retangulo-resultado,#resultado-triangulo,#resultado-km,#resultado-media{
     font-family: 'Orbitron', sans-serif;
     color: rgb(223, 207, 222);
-    font-size: 25px;
+    font-size: 10px;
     margin-top: 15px;
 }
 
