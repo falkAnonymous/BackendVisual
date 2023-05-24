@@ -31,7 +31,13 @@ h2{
 }
 input{
     text-align: center;
+    border: groove 3px;
+    border-radius: 25px;
+    color: white;
+    background-color: purple;
+    
 }
+
 
 .col{
     border: 5px groove rebeccapurple;
