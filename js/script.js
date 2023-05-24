@@ -22,8 +22,15 @@ function realDolar() {
 function Fahrenheit() {
     let Celsius = parseInt(document.getElementById('Celsus').value)
     let Fahrenheit = Celsius * 9 / 5 + 32;
-    let resultFahrenheit = Fahrenheit
-    document.getElementById('resultado-celsus').innerHTML = resultFahrenheit + "Fº";
+    if (Celsius == 0) {
+        document.getElementById('resultado-celsus').innerHTML = `Temperatura ${Fahrenheit} ínvalida`
+    }else if(isNaN(Celsius)){
+        document.getElementById('resultado-celsus').innerHTML = "Adicione um numero" 
+    } 
+    else{
+        document.getElementById('resultado-celsus').innerHTML = Fahrenheit + "Fº";
+    }
+
     // if(resultFahrenheit == 0){
     //     document.getElementById('resultado-celsus').innerHTML = "Não é possível calcular por zero";
     // }
@@ -69,16 +76,16 @@ function Triangulo() {
 }
 km_ms = () => { //Função anônima
     KmHora = parseInt(document.getElementById('Km').value);
-    mSegundo = (KmHora / 3.6).toFixed(2)
-    if(mSegundo <= 0 ){
-        document.getElementById('resultado-km').innerHTML = "Não é possível Converter 0kms em Ms"
-    }else if(mSegundo == isNaN){
-        document.getElementById('resultado-km').innerHTML = " Ponha um numero valido" 
-    }else{
-        document.getElementById('resultado-km').innerHTML = mSegundo + " ms"
+    mSegundo = (KmHora / 3.6).toFixed(2);
+    if (KmHora <= 0) {
+        document.getElementById('resultado-km').innerHTML = `Não é possível converter ${KmHora}kms em Ms`;
+    } else if (isNaN(KmHora)) {
+        document.getElementById('resultado-km').innerHTML = "Ponha um valor";
+    } else {
+        document.getElementById('resultado-km').innerHTML = mSegundo + " ms";
     }
-    
 }
+
 function Media() {
     nota1 = parseFloat(document.getElementById('Nota1').value);
     nota2 = parseFloat(document.getElementById('Nota2').value);
@@ -91,10 +98,10 @@ function Dividir() {
     numerador = parseFloat(document.getElementById().value);
     denominador = parseFloat(document.getElementById().value);
     quociente = (numerador / denominador).toFixed(2);
-    if(quociente == 0){
-        document.getElementById().innerHTML = "Não existe divisão divisão por 0";
+    if (quociente == 0) {
+        document.getElementById('').innerHTML = "Não existe divisão divisão por 0";
     }
-    else{
-        document.getElementById().innerHTML = quociente; 
+    else {
+        document.getElementById('').innerHTML = quociente;
     }
 }
