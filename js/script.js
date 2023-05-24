@@ -44,7 +44,6 @@ function Baskhara1() {
 
     if (delta < 0 || (a === 0 && b === 0)) {
         document.getElementById('resultado-baskx1').innerHTML = ("Erro: A equação não possui solução real.");
-        document.getElementById('resultado-baskx2').innerHTML = ("Erro: A equação não possui solução real.");
         return;
     }
     let x1 = (-b + Math.sqrt(delta)) / (2 * a)
